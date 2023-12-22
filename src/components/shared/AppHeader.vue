@@ -88,8 +88,8 @@ export default {
 				<div>
 					<router-link to="/">
 						<div style="display: flex; align-items: center;">
-							<img src="/randymxd06_logo.jpg" class="w-20 md:w-20 rounded-lg" alt="Logo" />
-							<span class="mx-3 font-general-semibold text-2xl md:text-2xl xl:text-3xl text-center sm:text-left text-ternary-dark dark:text-primary-light">
+							<img src="/randymxd06_logo.jpg" class="w-20 rounded-lg" alt="Logo" />
+							<span class="mx-3 font-general-semibold text-3xl md:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light">
 								Randymxd06
 							</span>
 						</div>
