@@ -143,7 +143,7 @@ export default {
 					<theme-switcher
 						:theme="theme"
 						@themeChanged="updateTheme"
-						class="ml-8 bg-primary-light dark:bg-ternary-dark px-3 py-2 shadow-sm rounded-xl cursor-pointer"
+						class="ml-8 bg-primary-light dark:bg-ternary-dark px-3 py-2 shadow-sm rounded-xl cursor-pointer hover:text-red-600"
 					/>
 					
 				</div>
