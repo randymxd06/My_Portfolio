@@ -3,8 +3,8 @@ export default {
 	data: () => {
 		return {
 			copyrightDate: new Date().getFullYear(),
-			projectName: 'Vue.js & Tailwind CSS Portfolio',
-			author: 'Stoman',
+			projectName: 'Portafolio de Randy',
+			author: 'Randy',
 		};
 	},
 };
@@ -17,17 +17,17 @@ export default {
 		>
 			&copy; {{ copyrightDate }}.
 			<a
-				href="https://github.com/realstoman/vuejs-tailwindcss-portfolio"
+				href="https://github.com/randymxd06/my-portfolio"
 				target="__blank"
-				class="font-general-medium hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 duration-500"
+				class="font-general-medium hover:underline hover:text-blue-600 dark:hover:text-blue-300 duration-500"
 			>
 				{{ projectName }}
 			</a>
-			. Developed by
+			. Desarrollado por
 			<a
-				href="https://stoman.me"
+				href="https://www.instagram.com/randymxd06/"
 				target="__blank"
-				class="font-general-medium text-secondary-dark dark:text-secondary-light uppercase hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 duration-500"
+				class="font-general-medium text-secondary-dark dark:text-secondary-light uppercase hover:underline hover:text-blue-600 dark:hover:text-blue-300 duration-500"
 				>{{ author }}</a
 			>
 		</div>

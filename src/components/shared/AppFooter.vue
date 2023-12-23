@@ -31,7 +31,7 @@ export default {
 				<p
 					class="font-general-semibold text-3xl sm:text-4xl font-semibold text-primary-dark dark:text-primary-light mb-5"
 				>
-					Follow me
+					Sigueme
 				</p>
 				<ul class="flex gap-4 sm:gap-8">
 					<a
@@ -39,7 +39,7 @@ export default {
 						:key="social.id"
 						:href="social.url"
 						target="__blank"
-						class="text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer rounded-lg bg-gray-50 dark:bg-ternary-dark hover:bg-gray-100 shadow-sm p-4 duration-500"
+						class="text-gray-400 hover:text-blue-500 dark:hover:text-blue-400 cursor-pointer rounded-lg bg-gray-50 dark:bg-ternary-dark hover:bg-gray-100 shadow-sm p-4 duration-500"
 					>
 						<i
 							:data-feather="social.icon"
