@@ -3,7 +3,7 @@ export default {
 	props: {
 		theme: {
 			type: String,
-			required: true,
+			requiblue: true,
 		},
 	},
 	methods: {
@@ -22,12 +22,12 @@ export default {
 		<i
 			v-if="theme === 'light'"
 			data-feather="moon"
-			class="text-liText-ternary-dark hover:text-red-600 dark:text-liText-ternary-light dark:hover:text-liBorder-primary-light w-5"
+			class="text-liText-ternary-dark hover:text-blue-600 dark:text-liText-ternary-light dark:hover:text-liBorder-primary-light w-5"
 		></i>
 		<i
 			v-else
 			data-feather="sun"
-			class="text-red-200 hover:text-red-300 w-5"
+			class="text-blue-200 hover:text-blue-300 w-5"
 		></i>
 	</a>
 </template>
