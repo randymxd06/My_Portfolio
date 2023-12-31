@@ -23,13 +23,13 @@ export default {
 		>
 			<!-- Years of experience counter -->
 			<div class="mb-20 sm:mb-0">
+				<!-- @finished="alert(`Counting finished!`)" -->
 				<counter
 					ref="counter"
 					:startAmount="0"
 					:endAmount="12"
 					:duration="1"
 					:autoinit="true"
-					@finished="alert(`Counting finished!`)"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
 					aria-label="About Status Counter"
 				/>
@@ -42,6 +42,7 @@ export default {
 
 			<!-- GitHub stars counter -->
 			<div class="mb-20 sm:mb-0">
+				<!-- @finished="alert(`Counting finished!`)" -->
 				<counter
 					ref="counter"
 					:startAmount="0"
@@ -49,7 +50,6 @@ export default {
 					:duration="1"
 					suffix="k+"
 					:autoinit="true"
-					@finished="alert(`Counting finished!`)"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
 				/>
 				<span
@@ -60,6 +60,7 @@ export default {
 
 			<!-- Positive feedback counter -->
 			<div class="mb-20 sm:mb-0">
+				<!-- @finished="alert(`Counting finished!`)" -->
 				<counter
 					ref="counter"
 					:startAmount="0"
@@ -67,7 +68,6 @@ export default {
 					:duration="1"
 					suffix="%"
 					:autoinit="true"
-					@finished="alert(`Counting finished!`)"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
 				/>
 				<span
@@ -79,13 +79,13 @@ export default {
 
 			<!-- Projects completed counter -->
 			<div class="mb-20 sm:mb-0">
+				<!-- @finished="alert(`Counting finished!`)" -->
 				<counter
 					ref="counter"
 					:startAmount="0"
 					:endAmount="77"
 					:duration="1"
 					:autoinit="true"
-					@finished="alert(`Counting finished!`)"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
 				/>
 				<span
