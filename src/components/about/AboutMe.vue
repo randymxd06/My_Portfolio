@@ -5,13 +5,15 @@ export default {
 			bios: [
 				{
 					id: 1,
-					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					bio: '¡Hola! 👋 Soy Randy Rafael Martínez Cepeda, un joven apasionado de la tecnología 💻 Técnico en Informatica egresado de INFOTEP y estudiante de termino de Ingenieria en Sistemas Computacionales de UTESA.',
 				},
 				{
 					id: 2,
-					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					bio: 'Trabajé como desarrollador web, comenzando en el backend con Laravel, PostgreSQL, Slack, Git y MySQL, entre otras tecnologías. Posteriormente, me trasladé al frontend utilizando Vue.js y React.js para crear experiencias de usuario atractivas, por último, desempeñé el rol de desarrollador FullStack con tecnologías como Nest.js, Node.js, Laravel, React.js, Vue 3 con Pinia, TypeScript y Composition API, además de trabajar con herramientas como Asana, Firebase, Docker, MongoDB y muchas más.',
+				},
+				{
+					id: 3,
+					bio: 'Estoy emocionado por seguir creciendo profesionalmente y explorar nuevas oportunidades en el mundo de la tecnología. Siempre estoy dispuesto a conectar y aprender de personas con ideas afines. ¡No dudes en contactarme y comenzar una conversación!',
 				},
 			],
 		};
@@ -24,7 +26,7 @@ export default {
 		<!-- About profile image -->
 		<div class="w-full sm:w-1/4 mb-7 sm:mb-0">
 			<img
-				src="@/assets/images/profile.jpeg"
+				src="@/assets/images/randy-profile-photo.jpg"
 				class="rounded-xl w-96"
 				alt=""
 			/>

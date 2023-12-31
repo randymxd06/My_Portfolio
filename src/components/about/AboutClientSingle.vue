@@ -1,16 +1,19 @@
 <script>
 export default {
-	props: ['client'],
+	props: ['technology'],
 };
 </script>
 
 <template>
 	<div>
-		<img
-			:src="client.img"
-			:alt="client.title"
-			class="w-64 py-5 px-10 border border-ternary-light dark:border-ternary-dark shadow-sm rounded-lg mb-8 cursor-pointer dark:bg-secondary-light"
-		/>
+		<a :href="technology.url">
+			<img
+				:title="technology.title"
+				:src="technology.img"
+				:alt="technology.title"
+				class="w-40 h-20 py-5 px-10 border border-ternary-light dark:border-ternary-dark shadow-sm rounded-lg mb-8 cursor-pointer dark:bg-secondary-light"
+			/>
+		</a>
 	</div>
 </template>
 
