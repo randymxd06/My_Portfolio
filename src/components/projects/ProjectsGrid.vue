@@ -61,7 +61,7 @@ export default {
 
 		<!-- Filter and search projects -->
 		<div class="mt-10 sm:mt-10">
-			<h3
+			<!-- <h3
 				class="font-general-regular
 					text-center text-secondary-dark
 					dark:text-ternary-light
@@ -72,7 +72,7 @@ export default {
 				"
 			>
 				Busque proyectos por título o filtre por categoría
-			</h3>
+			</h3> -->
 			<div
 				class="
 					flex
