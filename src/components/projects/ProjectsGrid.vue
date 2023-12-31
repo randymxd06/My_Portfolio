@@ -1,14 +1,13 @@
 <script>
 import feather from 'feather-icons';
-import ProjectsFilter from './ProjectsFilter.vue';
+// import ProjectsFilter from './ProjectsFilter.vue';
 import ProjectSingle from './ProjectSingle.vue';
-import projects from '../../data/projects';
 
 export default {
-	components: { ProjectSingle, ProjectsFilter },
+	props: ['projects'],
+	components: { ProjectSingle, /* ProjectsFilter */ },
 	data: () => {
 		return {
-			projects,
 			projectsHeading: 'Portafolio de Proyectos',
 			selectedCategory: '',
 			searchProject: '',
@@ -84,7 +83,7 @@ export default {
 					gap-2
 				"
 			>
-				<div class="flex justify-between gap-2">
+				<!-- <div class="flex justify-between gap-2">
 					<span
 						class="
 							hidden
@@ -126,8 +125,8 @@ export default {
 						placeholder="Buscar Proyectos"
 						aria-label="Name"
 					/>
-				</div>
-				<ProjectsFilter @filter="selectedCategory = $event" />
+				</div> -->
+				<!-- <ProjectsFilter @filter="selectedCategory = $event" /> -->
 			</div>
 		</div>
 
