@@ -81,4 +81,4 @@ Abre tu navegador y visita http://localhost:8080.
 
 ### License
 
-<!-- [MIT](https://github.com/randymxd06/my-portfolio/main/LICENSE) -->
+[MIT](https://github.com/randymxd06/my-portfolio/blob/main/LICENCE)
