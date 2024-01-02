@@ -1,85 +1,84 @@
-# Vuejs & TailwindCSS Portfolio - With Dark Mode
+# Mi Portafolio
 
-A simple portfolio starter theme built with Vue.js v3 and Tailwind CSS v3.
+Este repositorio contiene el código fuente y los archivos necesarios para construir y mantener mi portafolio web personal. Diseñado para mostrar mi experiencia, habilidades y proyectos destacados, este portafolio web actúa como una ventana virtual a mi carrera y habilidades técnicas. El código se basa en un diseño moderno y totalmente responsivo, asegurando una experiencia de usuario óptima en una amplia variedad de dispositivos, desde computadoras de escritorio hasta dispositivos móviles. Cada sección del portafolio aborda aspectos clave, como información personal, experiencia laboral, educación, habilidades técnicas, proyectos destacados y formas de contacto. La presentación de esta información se realiza de manera clara y atractiva.
 
-![Vuejs-TailwindCSS-Portfolio](https://user-images.githubusercontent.com/16396664/140909796-815239e4-a986-46ad-bbd0-4b166127bbb8.JPG)
+El enfoque estético del diseño refleja mi estilo personal y profesional. El uso de colores, tipografías y elementos visuales se ha cuidado para transmitir una impresión positiva y memorable. Se ha incorporado interactividad para mejorar la experiencia del usuario. Esto puede incluir animaciones suaves, efectos de desplazamiento, galerías de imágenes interactivas y otros elementos dinámicos que enriquecen la navegación. Una sección dedicada resalta proyectos anteriores y actuales. Cada proyecto incluye detalles sobre la tecnología utilizada, el problema resuelto y los resultados obtenidos. Enlaces a repositorios de GitHub, demostraciones en vivo y capturas de pantalla proporcionan una visión completa.
+
+El repositorio incluye un archivo README detallado que proporciona instrucciones claras para la instalación, configuración y mantenimiento del portafolio. Además, se realizarán actualizaciones periódicas para reflejar proyectos y habilidades recientes. Se especifica una licencia abierta para promover la reutilización y la contribución de la comunidad. Se alienta a los visitantes a informar problemas, sugerir mejoras y contribuir al desarrollo del portafolio. Este repositorio representa mi identidad digital y profesional, mostrando de manera efectiva mi trayectoria y habilidades a posibles empleadores, colegas y clientes.
 
 ## Demo URL
 
-[https://vuejs-tailwindcss-portfolio.netlify.com](https://vuejs-tailwindcss-portfolio.netlify.com)
+[https://randymxd06.netlify.app](https://randymxd06.netlify.app)
 
-## Other versions of this project
+## Caracteristicas
 
--   Nuxt.js Version: [https://github.com/realstoman/nuxtjs-tailwindcss-portfolio](https://github.com/realstoman/nuxtjs-tailwindcss-portfolio)
--   React Version: [https://github.com/realstoman/react-tailwindcss-portfolio](https://github.com/realstoman/react-tailwindcss-portfolio)
--   Next.js Version: [https://github.com/realstoman/nextjs-tailwindcss-portfolio](https://github.com/realstoman/nextjs-tailwindcss-portfolio)
+- Diseño simple y responsivo
+- [Vue.js v3](https://vuejs.org) con [Vue Router](https://router.vuejs.org)
+- [Tailwind CSS v3] (https://tailwindcss.com)
+- Cambiador de temas con modo oscuro
+- Composition API
+- Transiciones de vista
+- Componentes reutilizables
+- Contador automático
+- Desplazamiento suave de Vue.js
+- Formas dinámicas
+- Desplazarse al botón superior
+- Botón Descargar archivo
 
-## Features
+## Instalación
 
--   Simple and responsive design
--   [Vue.js v3](https://vuejs.org) with [Vue Router](https://router.vuejs.org)
--   [Tailwind CSS v3](https://tailwindcss.com)
--   Theme Switcher with Dark Mode
--   Composition API
--   Vue transitions
--   Reusable Components
--   Auto Counter
--   Projects filter by category
--   Projects filter by search
--   Projects carousel
--   Vue.js smooth scroll
--   Dynamic forms
--   Scroll to top button
--   Download file button
+1. Asegúrate de tener instalado Node JS. Si no lo tienes:
 
-### To Contribute to this project, read the [Contribution Guidlines](https://github.com/realstoman/vuejs-tailwindcss-portfolio/blob/main/CONTRIBUTING.md)
-
-## Setup
-
-1. Make sure you have Node JS installed. If you don't have it:
-
--   [Download it from nodejs.org](https://nodejs.org)
--   [Install it using NVM ](https://github.com/nvm-sh/nvm)
--   If you're on Mac, Homebrew is a good option too:
+-   [Descárgalo desde nodejs.org](https://nodejs.org)
+-   [Instálalo usando NVM](https://github.com/nvm-sh/nvm)
+-   Si estás en Mac, Homebrew también es una buena opción:
 
 ```
 brew install node
 ```
 
-2. Clone the repo:
+2. Clonar el repositorio:
 
 ```
-git clone https://github.com/realstoman/vuejs-tailwindcss-portfolio.git
+git clone https://github.com/randymxd06/my-portfolio.git
 ```
 
-3. Open the project folder:
+3. Abra la carpeta del proyecto:
 
 ```
-cd vuejs-tailwindcss-portfolio
+cd my-portfolio.git
 ```
 
-4. Install packages and dependencies:
+4. Instalar paquetes y dependencias:
 
 ```
-npm install
-```
-
-5. Start a local dev server at `http://localhost:8080`:
-
-```
+# Con npm:
 npm run serve
+
+# Con yarn:
+yarn install
 ```
 
-## Notes
+5. Una vez que hayas instalado las dependencias, puedes ejecutar la aplicación localmente con los siguientes comandos:
 
--   Always run `npm install` after pulling new changes
--   I'll be constantly updating this repo as I'll be adding more sections to it, so please always check the projects section of this repo to see what tasks are under todo and in progress
--   Coming Soon [I'll be doing a screencast](https://www.youtube.com/realstoman). Soon I'll be uploading a video to my YouTube channel where I'll be going through the process of creating this portoflio
--   Illustrations from [unDraw](https://undraw.co) and [Freepik](https://freepik.com)
--   Images from [Unsplash](https://unsplash.com)
--   Feel free to use it as your own portfolio
--   Contributions are welcome
+```
+# Compila y recarga en caliente para desarrollo:
+npm run serve
+
+# O con yarn:
+yarn serve
+```
+
+Abre tu navegador y visita http://localhost:8080.
+
+## Notas
+
+- Ejecute siempre `npm install` después de realizar nuevos cambios
+- Ilustraciones de [unDraw](https://undraw.co) y [Freepik](https://freepik.com)
+- Imágenes de [seeklogo](https://seeklogo.com) y [Google](https://google.com)
+- Siéntete libre de utilizarlo como tu propio portafolio.
+- Las contribuciones son bienvenidas
 
 ### License
 
-[MIT](https://github.com/realstoman/vuejs-tailwindcss-portfolio/blob/main/LICENSE)
+<!-- [MIT](https://github.com/randymxd06/my-portfolio/main/LICENSE) -->
