@@ -31,7 +31,7 @@ export default {
 				<p
 					class="font-general-semibold text-3xl sm:text-4xl font-semibold text-primary-dark dark:text-primary-light mb-5"
 				>
-					Sigueme
+					Sígueme
 				</p>
 				<ul class="flex gap-4 sm:gap-8">
 					<a
