@@ -6,7 +6,7 @@ export default {
 
 <template>
 	<div>
-		<a :href="technology.url">
+		<a :href="technology.url" target="_blank">
 			<img
 				:title="technology.title"
 				:src="technology.img"

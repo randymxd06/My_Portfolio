@@ -8,7 +8,7 @@ export default {
 	},
 	data: () => {
 		return {
-			technologiesHeading: 'Algunas de las tecnologías y herramientas con las que he trabajado',
+			technologiesHeading: 'Tecnologías y Herramientas',
 			technologies,
 		};
 	},
@@ -16,13 +16,13 @@ export default {
 </script>
 
 <template>
-	<div class="mt-10 sm:mt-20">
+	<div class="mt-10 sm:mt-20 container">
 		<p
 			class="font-general-medium text-2xl sm:text-3xl text-primary-dark dark:text-primary-light"
 		>
 			{{ technologiesHeading }}
 		</p>
-		<div class="grid grid-cols-2 sm:grid-cols-8 mt-10 sm:mt-14 gap-2">
+		<div class="grid grid-cols-2 sm:grid-cols-5 mt-10 sm:mt-14 gap-2">
 			<AboutClientSingle
 				v-for="technology in technologies"
 				:key="technology.id"
