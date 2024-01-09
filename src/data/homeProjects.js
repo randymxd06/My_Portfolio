@@ -125,28 +125,28 @@ const homeProjects = [
 	},
 	{
 		id: 2,
-		title: 'Pokemon Game',
+		title: 'Juego de Pokémon',
 		category: 'Aplicación Web',
 		img: require('@/assets/images/projects/pokemon.png'),
 		singleProjectHeader: {
-			singleProjectTitle: 'Pokemon Game',
+			singleProjectTitle: 'Juego de Pokémon',
 			singleProjectDate: 'Ene 09, 2024',
 			singleProjectTag: 'Aplicación Web',
 		},
 		projectImages: [
 			{
 				id: 1,
-				title: 'Pokemon Game',
+				title: 'Juego de Pokémon',
 				img: require('@/assets/images/projects/pokemon.png'),
 			},
 			{
 				id: 2,
-				title: 'Pokemon Game',
+				title: 'Juego de Pokémon',
 				img: require('@/assets/images/projects/pokemon/pokemon2.png'),
 			},
 			{
 				id: 3,
-				title: 'Pokemon Game',
+				title: 'Juego de Pokémon',
 				img: require('@/assets/images/projects/pokemon/pokemon3.png'),
 			},
 		],
@@ -244,59 +244,29 @@ const homeProjects = [
 	},
 	{
 		id: 3,
-		title: 'Página de Recetas',
-		category: 'Página Web',
-		img: require('@/assets/images/projects/recipes/recipes3.png'),
+		title: 'Aplicación de Mapas',
+		category: 'Aplicación Web',
+		img: require('@/assets/images/projects/maps.png'),
 		singleProjectHeader: {
-			singleProjectTitle: 'Página de Recetas',
-			singleProjectDate: 'Ene 01, 2024',
-			singleProjectTag: 'Página Web',
+			singleProjectTitle: 'Aplicación de Mapas',
+			singleProjectDate: 'Ene 09, 2024',
+			singleProjectTag: 'Aplicación Web',
 		},
 		projectImages: [
 			{
 				id: 1,
-				title: 'Pagina de Recetas',
-				img: require('@/assets/images/projects/recipes/recipes2.png'),
+				title: 'Aplicación de Mapas',
+				img: require('@/assets/images/projects/maps.png'),
 			},
 			{
 				id: 2,
-				title: 'Pagina de Recetas',
-				img: require('@/assets/images/projects/recipes/recipes3.png'),
+				title: 'Aplicación de Mapas',
+				img: require('@/assets/images/projects/maps/maps2.png'),
 			},
 			{
 				id: 3,
-				title: 'Pagina de Recetas',
-				img: require('@/assets/images/projects/recipes/recipes4.png'),
-			},
-			{
-				id: 4,
-				title: 'Pagina de Recetas',
-				img: require('@/assets/images/projects/recipes/recipes5.png'),
-			},
-			{
-				id: 5,
-				title: 'Pagina de Recetas',
-				img: require('@/assets/images/projects/recipes/recipes6.png'),
-			},
-			{
-				id: 6,
-				title: 'Pagina de Recetas',
-				img: require('@/assets/images/projects/recipes/recipes7.png'),
-			},
-			{
-				id: 7,
-				title: 'Pagina de Recetas',
-				img: require('@/assets/images/projects/recipes/recipes8.png'),
-			},
-			{
-				id: 8,
-				title: 'Pagina de Recetas',
-				img: require('@/assets/images/projects/recipes/recipes9.png'),
-			},
-			{
-				id: 9,
-				title: 'Pagina de Recetas',
-				img: require('@/assets/images/projects/recipes/recipes10.png'),
+				title: 'Aplicación de Mapas',
+				img: require('@/assets/images/projects/maps/maps3.png'),
 			},
 		],
 		projectInfo: {
@@ -310,12 +280,12 @@ const homeProjects = [
 				{
 					id: 2,
 					title: 'Servicios',
-					details: 'Desarrollo de Página Web',
+					details: 'Desarrollo Aplicación de Mapas',
 				},
 				{
 					id: 3,
 					title: 'Sitio Web',
-					details: 'https://randyrecipes.000webhostapp.com/index.php',
+					details: 'https://mapsappr.netlify.app',
 				},
 				{
 					id: 4,
@@ -324,16 +294,14 @@ const homeProjects = [
 				},
 			],
 			objectivesHeading: 'Objetivo',
-			objectivesDetails: 'El objetivo principal de una página web de recetas es proporcionar a los usuarios una plataforma en línea donde puedan acceder a una variedad de recetas de cocina para inspirarse, aprender nuevas habilidades culinarias y encontrar instrucciones detalladas para preparar platos deliciosos.',
+			objectivesDetails: 'La aplicación de mapas tiene como objetivo principal proporcionar a los usuarios herramientas para explorar, navegar y encontrar información sobre el mundo que les rodea, facilitando así la toma de decisiones en sus desplazamientos diarios o viajes.',
 			technologies: [
 				{
 					title: 'Herramientas & Tecnologías',
 					techs: [
-						'HTML',
-						'CSS',
-						'JavaScript',
-						'PHP',
-						'Bootstrap 4.1',
+						'Vue.js',
+						'TypeScript',
+						'Mapbox API',
 					],
 				},
 			],
@@ -341,16 +309,17 @@ const homeProjects = [
 			projectDetails: [
 				{
 					id: 1,
-					details: 'Bienvenido a "Randys Recipes", tu destino culinario en línea donde la pasión por la comida se combina con la creatividad y la comunidad. En nuestro portal, te sumergirás en un mundo de sabores, texturas y colores, descubriendo un sinfín de recetas que van desde clásicos reconfortantes hasta platos innovadores que despiertan tu paladar.',
+					details: 'Bienvenido a nuestra aplicación de mapas, una herramienta completa que transforma la manera en que te relacionas con el mundo que te rodea. Diseñada con la última tecnología cartográfica y una interfaz intuitiva, nuestra aplicación está destinada a simplificar tus viajes diarios, exploraciones y descubrimientos en nuevas tierras.',
 				},
 				{
 					id: 2,
-					details: 'Nuestra extensa biblioteca de recetas está diseñada para satisfacer todos los gustos y necesidades. Desde desayunos saludables y almuerzos reconfortantes hasta cenas gourmet y postres indulgentes, "Randys Recipes" ofrece una amplia variedad para cada ocasión y preferencia. Clasificadas de manera intuitiva, las recetas son fácilmente accesibles según el tipo de cocina, nivel de dificultad, tiempo de preparación y dietas específicas, para que encuentres la inspiración que estás buscando.',
+					details: 'Nuestra aplicación ofrece un sistema de navegación avanzado que va más allá de las simples direcciones. Proporciona rutas detalladas en tiempo real, condiciones del camino y opciones alternativas para asegurar que llegues a tu destino de la manera más eficiente y rápida posible. Olvídate de los atascos gracias a nuestras actualizaciones en tiempo real sobre el tráfico y las sugerencias de rutas alternativas.',
 				},
 				{
 					id: 3,
-					details: 'Cada receta viene acompañada de instrucciones detalladas, desde la lista de ingredientes hasta el paso a paso del proceso de preparación. Nuestra misión es guiarte a través de cada etapa, brindándote la confianza para llevar tus habilidades culinarias al siguiente nivel. Además, nuestras imágenes de alta resolución y videos cautivadores te sumergen visualmente en el mundo de la cocina, haciendo que cada receta sea una experiencia completa.',
+					details: 'Nuestra aplicación de mapas es tu compañero indispensable para explorar el mundo. Ya sea que estés planificando una ruta, buscando nuevos lugares para disfrutar o simplemente curioseando, nuestra aplicación está diseñada para hacerte la vida más fácil y emocionante a medida que te aventuras en el mundo que te rodea. ¡Descárgala hoy y empieza tu próxima gran aventura!',
 				},
+				
 			],
 			socialSharingsHeading: 'LinkedIn y Codigo Fuente',
 			socialSharings: [
@@ -362,9 +331,9 @@ const homeProjects = [
 				},
 				{
 					id: 2,
-					name: 'Randys_Recipes_2.0',
+					name: 'Maps_App_VueJS',
 					icon: 'github',
-					url: 'https://github.com/randymxd06/Randys_Recipes_2.0',
+					url: 'https://github.com/randymxd06/Maps_App_VueJS',
 				},
 			],
 		},

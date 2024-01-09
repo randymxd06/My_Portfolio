@@ -128,28 +128,28 @@ const projects = [
 	},
 	{
 		id: 2,
-		title: 'Pokemon Game',
+		title: 'Juego de Pokémon',
 		category: 'Aplicación Web',
 		img: require('@/assets/images/projects/pokemon.png'),
 		singleProjectHeader: {
-			singleProjectTitle: 'Pokemon Game',
+			singleProjectTitle: 'Juego de Pokémon',
 			singleProjectDate: 'Ene 09, 2024',
 			singleProjectTag: 'Aplicación Web',
 		},
 		projectImages: [
 			{
 				id: 1,
-				title: 'Pokemon Game',
+				title: 'Juego de Pokémon',
 				img: require('@/assets/images/projects/pokemon.png'),
 			},
 			{
 				id: 2,
-				title: 'Pokemon Game',
+				title: 'Juego de Pokémon',
 				img: require('@/assets/images/projects/pokemon/pokemon2.png'),
 			},
 			{
 				id: 3,
-				title: 'Pokemon Game',
+				title: 'Juego de Pokémon',
 				img: require('@/assets/images/projects/pokemon/pokemon3.png'),
 			},
 		],
@@ -247,6 +247,127 @@ const projects = [
 	},
 	{
 		id: 3,
+		title: 'Aplicación de Mapas',
+		category: 'Aplicación Web',
+		img: require('@/assets/images/projects/maps.png'),
+		singleProjectHeader: {
+			singleProjectTitle: 'Aplicación de Mapas',
+			singleProjectDate: 'Ene 09, 2024',
+			singleProjectTag: 'Aplicación Web',
+		},
+		projectImages: [
+			{
+				id: 1,
+				title: 'Aplicación de Mapas',
+				img: require('@/assets/images/projects/maps.png'),
+			},
+			{
+				id: 2,
+				title: 'Aplicación de Mapas',
+				img: require('@/assets/images/projects/maps/maps2.png'),
+			},
+			{
+				id: 3,
+				title: 'Aplicación de Mapas',
+				img: require('@/assets/images/projects/maps/maps3.png'),
+			},
+		],
+		projectInfo: {
+			clientHeading: 'Sobre el Cliente',
+			companyInfos: [
+				{
+					id: 1,
+					title: 'Nombre',
+					details: 'Randy',
+				},
+				{
+					id: 2,
+					title: 'Servicios',
+					details: 'Desarrollo Aplicación de Mapas',
+				},
+				{
+					id: 3,
+					title: 'Sitio Web',
+					details: 'https://mapsappr.netlify.app',
+				},
+				{
+					id: 4,
+					title: 'Telefono',
+					details: '(849) 858-2406',
+				},
+			],
+			objectivesHeading: 'Objetivo',
+			objectivesDetails: 'La aplicación de mapas tiene como objetivo principal proporcionar a los usuarios herramientas para explorar, navegar y encontrar información sobre el mundo que les rodea, facilitando así la toma de decisiones en sus desplazamientos diarios o viajes.',
+			technologies: [
+				{
+					title: 'Herramientas & Tecnologías',
+					techs: [
+						'Vue.js',
+						'TypeScript',
+						'Mapbox API',
+					],
+				},
+			],
+			projectDetailsHeading: 'Descripción del proyecto',
+			projectDetails: [
+				{
+					id: 1,
+					details: 'Bienvenido a nuestra aplicación de mapas, una herramienta completa que transforma la manera en que te relacionas con el mundo que te rodea. Diseñada con la última tecnología cartográfica y una interfaz intuitiva, nuestra aplicación está destinada a simplificar tus viajes diarios, exploraciones y descubrimientos en nuevas tierras.',
+				},
+				{
+					id: 2,
+					details: 'Nuestra aplicación ofrece un sistema de navegación avanzado que va más allá de las simples direcciones. Proporciona rutas detalladas en tiempo real, condiciones del camino y opciones alternativas para asegurar que llegues a tu destino de la manera más eficiente y rápida posible. Olvídate de los atascos gracias a nuestras actualizaciones en tiempo real sobre el tráfico y las sugerencias de rutas alternativas.',
+				},
+				{
+					id: 3,
+					details: 'Nuestra aplicación de mapas es tu compañero indispensable para explorar el mundo. Ya sea que estés planificando una ruta, buscando nuevos lugares para disfrutar o simplemente curioseando, nuestra aplicación está diseñada para hacerte la vida más fácil y emocionante a medida que te aventuras en el mundo que te rodea. ¡Descárgala hoy y empieza tu próxima gran aventura!',
+				},
+				
+			],
+			socialSharingsHeading: 'LinkedIn y Codigo Fuente',
+			socialSharings: [
+				{
+					id: 1,
+					name: 'randymxd06',
+					icon: 'linkedin',
+					url: 'https://www.linkedin.com/in/randymxd06/',
+				},
+				{
+					id: 2,
+					name: 'Maps_App_VueJS',
+					icon: 'github',
+					url: 'https://github.com/randymxd06/Maps_App_VueJS',
+				},
+			],
+		},
+		relatedProject: {
+			relatedProjectsHeading: 'Otros Proyectos',
+			relatedProjects: [
+				{
+					id: 1,
+					title: 'Mobile UI',
+					img: require('@/assets/images/mobile-project-1.jpg'),
+				},
+				{
+					id: 2,
+					title: 'Web Application',
+					img: require('@/assets/images/web-project-1.jpg'),
+				},
+				{
+					id: 3,
+					title: 'UI Design',
+					img: require('@/assets/images/ui-project-2.jpg'),
+				},
+				{
+					id: 4,
+					title: 'Kabul Mobile App UI',
+					img: require('@/assets/images/mobile-project-2.jpg'),
+				},
+			],
+		},
+	},
+	{
+		id: 4,
 		title: 'Página de Recetas',
 		category: 'Página Web',
 		img: require('@/assets/images/projects/recipes.png'),
@@ -398,14 +519,14 @@ const projects = [
 		},
 	},
 	{
-		id: 4,
+		id: 5,
 		title: 'Página de Conejos',
-		category: 'Diseño UI/UX',
+		category: 'Página Web',
 		img: require('@/assets/images/projects/rabbits.png'),
 		singleProjectHeader: {
 			singleProjectTitle: 'Página de Conejos',
 			singleProjectDate: 'Ene 01, 2024',
-			singleProjectTag: 'Diseño UI/UX',
+			singleProjectTag: 'Página Web',
 		},
 		projectImages: [
 			{
@@ -524,24 +645,6 @@ const projects = [
 				},
 			],
 		},
-	},
-	{
-		id: 5,
-		title: 'Cloud Storage Platform',
-		category: 'UI/UX Design',
-		img: require('@/assets/images/ui-project-2.jpg'),
-	},
-	{
-		id: 6,
-		title: 'React Social App',
-		category: 'Mobile Application',
-		img: require('@/assets/images/mobile-project-1.jpg'),
-	},
-	{
-		id: 7,
-		title: 'Apple Design System',
-		category: 'Web Application',
-		img: require('@/assets/images/web-project-1.jpg'),
 	},
 ];
 
