@@ -281,27 +281,27 @@ const projects = [
 	{
 		id: 3,
 		title: 'Página de Conejos',
-		category: 'UI/UX Design',
+		category: 'Diseño UI/UX',
 		img: require('@/assets/images/projects/rabbits.png'),
 		singleProjectHeader: {
 			singleProjectTitle: 'Página de Conejos',
 			singleProjectDate: 'Ene 01, 2024',
-			singleProjectTag: 'UI/UX Design',
+			singleProjectTag: 'Diseño UI/UX',
 		},
 		projectImages: [
 			{
 				id: 1,
-				title: 'Pagina de Recetas',
+				title: 'Pagina de Conejos',
 				img: require('@/assets/images/projects/rabbits/rabbits2.png'),
 			},
 			{
 				id: 2,
-				title: 'Pagina de Recetas',
+				title: 'Pagina de Conejos',
 				img: require('@/assets/images/projects/rabbits/rabbits3.png'),
 			},
 			{
 				id: 3,
-				title: 'Pagina de Recetas',
+				title: 'Pagina de Conejos',
 				img: require('@/assets/images/projects/rabbits/rabbits4.png'),
 			},
 		],
