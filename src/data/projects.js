@@ -128,6 +128,125 @@ const projects = [
 	},
 	{
 		id: 2,
+		title: 'Pokemon Game',
+		category: 'Aplicación Web',
+		img: require('@/assets/images/projects/pokemon.png'),
+		singleProjectHeader: {
+			singleProjectTitle: 'Pokemon Game',
+			singleProjectDate: 'Ene 09, 2024',
+			singleProjectTag: 'Aplicación Web',
+		},
+		projectImages: [
+			{
+				id: 1,
+				title: 'Pokemon Game',
+				img: require('@/assets/images/projects/pokemon.png'),
+			},
+			{
+				id: 2,
+				title: 'Pokemon Game',
+				img: require('@/assets/images/projects/pokemon/pokemon2.png'),
+			},
+			{
+				id: 3,
+				title: 'Pokemon Game',
+				img: require('@/assets/images/projects/pokemon/pokemon3.png'),
+			},
+		],
+		projectInfo: {
+			clientHeading: 'Sobre el Cliente',
+			companyInfos: [
+				{
+					id: 1,
+					title: 'Nombre',
+					details: 'Randy',
+				},
+				{
+					id: 2,
+					title: 'Servicios',
+					details: 'Desarrollo de un Juego de Pokemon',
+				},
+				{
+					id: 3,
+					title: 'Sitio Web',
+					details: 'https://pokemongamer.netlify.app',
+				},
+				{
+					id: 4,
+					title: 'Telefono',
+					details: '(849) 858-2406',
+				},
+			],
+			objectivesHeading: 'Objetivo',
+			objectivesDetails: 'El objetivo principal de un juego de adivinanzas de Pokémon podría variar según el diseño específico del juego, pero en general, el propósito sería desafiar a los jugadores a adivinar o identificar diferentes Pokémon a partir de pistas, imágenes, descripciones o cualquier otro medio utilizado en el juego.',
+			technologies: [
+				{
+					title: 'Herramientas & Tecnologías',
+					techs: [
+						'Vue.js',
+						'Pokemon API',
+					],
+				},
+			],
+			projectDetailsHeading: 'Descripción del proyecto',
+			projectDetails: [
+				{
+					id: 1,
+					details: 'Este juego ofrece a los jugadores una experiencia envolvente y educativa al presentarles una variedad de desafíos adivinatorios. Los participantes pueden encontrarse con imágenes parciales, sombras misteriosas, o incluso descripciones detalladas de Pokémon específicos. La premisa es simple pero cautivadora: identificar correctamente el Pokémon en cuestión a partir de estas pistas.',
+				},
+				{
+					id: 2,
+					details: 'Los jugadores pueden explorar diferentes modos de juego, desde desafíos cronometrados que ponen a prueba la velocidad de reconocimiento hasta modalidades más relajadas que fomentan la reflexión y el aprendizaje. Además, el juego podría incluir un sistema de niveles o logros para recompensar la progresión y mantener el interés a lo largo del tiempo.',
+				},
+				{
+					id: 3,
+					details: 'Para hacer la experiencia aún más emocionante, el juego podría incorporar elementos sociales, permitiendo a los jugadores competir entre ellos, formar equipos para resolver desafíos más difíciles o compartir sus logros en las redes sociales. También podría ofrecer actualizaciones periódicas con nuevas generaciones de Pokémon o desafíos temáticos, manteniendo el contenido fresco y relevante.',
+				},
+			],
+			socialSharingsHeading: 'LinkedIn y Codigo Fuente',
+			socialSharings: [
+				{
+					id: 1,
+					name: 'randymxd06',
+					icon: 'linkedin',
+					url: 'https://www.linkedin.com/in/randymxd06/',
+				},
+				{
+					id: 2,
+					name: 'Pokemon_Game_VueJS',
+					icon: 'github',
+					url: 'https://github.com/randymxd06/Pokemon_Game_VueJS',
+				},
+			],
+		},
+		relatedProject: {
+			relatedProjectsHeading: 'Otros Proyectos',
+			relatedProjects: [
+				{
+					id: 1,
+					title: 'Mobile UI',
+					img: require('@/assets/images/mobile-project-1.jpg'),
+				},
+				{
+					id: 2,
+					title: 'Web Application',
+					img: require('@/assets/images/web-project-1.jpg'),
+				},
+				{
+					id: 3,
+					title: 'UI Design',
+					img: require('@/assets/images/ui-project-2.jpg'),
+				},
+				{
+					id: 4,
+					title: 'Kabul Mobile App UI',
+					img: require('@/assets/images/mobile-project-2.jpg'),
+				},
+			],
+		},
+	},
+	{
+		id: 3,
 		title: 'Página de Recetas',
 		category: 'Página Web',
 		img: require('@/assets/images/projects/recipes.png'),
@@ -279,7 +398,7 @@ const projects = [
 		},
 	},
 	{
-		id: 3,
+		id: 4,
 		title: 'Página de Conejos',
 		category: 'Diseño UI/UX',
 		img: require('@/assets/images/projects/rabbits.png'),
@@ -407,19 +526,19 @@ const projects = [
 		},
 	},
 	{
-		id: 4,
+		id: 5,
 		title: 'Cloud Storage Platform',
 		category: 'UI/UX Design',
 		img: require('@/assets/images/ui-project-2.jpg'),
 	},
 	{
-		id: 5,
+		id: 6,
 		title: 'React Social App',
 		category: 'Mobile Application',
 		img: require('@/assets/images/mobile-project-1.jpg'),
 	},
 	{
-		id: 6,
+		id: 7,
 		title: 'Apple Design System',
 		category: 'Web Application',
 		img: require('@/assets/images/web-project-1.jpg'),
