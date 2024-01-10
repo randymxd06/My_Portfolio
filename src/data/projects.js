@@ -646,6 +646,132 @@ const projects = [
 			],
 		},
 	},
+	{
+		id: 6,
+		title: 'Colas con Websockets',
+		category: 'Aplicación Web',
+		img: require('@/assets/images/projects/queues.png'),
+		singleProjectHeader: {
+			singleProjectTitle: 'Colas con Websockets',
+			singleProjectDate: 'Ene 09, 2024',
+			singleProjectTag: 'Aplicación Web',
+		},
+		projectImages: [
+			{
+				id: 1,
+				title: 'Colas con Websockets',
+				img: require('@/assets/images/projects/queues.png'),
+			},
+			{
+				id: 2,
+				title: 'Colas con Websockets',
+				img: require('@/assets/images/projects/queues/queues2.png'),
+			},
+			{
+				id: 3,
+				title: 'Colas con Websockets',
+				img: require('@/assets/images/projects/queues/queues3.png'),
+			},
+		],
+		projectInfo: {
+			clientHeading: 'Sobre el Cliente',
+			companyInfos: [
+				{
+					id: 1,
+					title: 'Nombre',
+					details: 'Randy',
+				},
+				{
+					id: 2,
+					title: 'Servicios',
+					details: 'Desarrollo de aplicación de colas (tickets)',
+				},
+				{
+					id: 3,
+					title: 'Sitio Web',
+					details: 'https://websocketcolasappnodejs-production.up.railway.app',
+				},
+				{
+					id: 4,
+					title: 'Telefono',
+					details: '(849) 858-2406',
+				},
+			],
+			objectivesHeading: 'Objetivo',
+			objectivesDetails: 'El objetivo principal de la aplicación es gestionar y organizar de manera eficiente la espera de las personas en un determinado lugar o para acceder a un servicio. Estas aplicaciones son comunes en entornos donde hay una afluencia de personas, como en instituciones gubernamentales, centros de atención al cliente, hospitales, parques de atracciones, restaurantes con lista de espera, entre otros.',
+			technologies: [
+				{
+					title: 'Herramientas & Tecnologías',
+					techs: [
+						'HTML',
+						'CSS',
+						'JavaScript',
+						'Node.js',
+						'WebSockets',
+					],
+				},
+			],
+			projectDetailsHeading: 'Descripción del proyecto',
+			projectDetails: [
+				{
+					id: 1,
+					details: 'En un mundo caracterizado por la constante búsqueda de eficiencia y comodidad, las aplicaciones de colas o tickets han surgido como una solución innovadora para gestionar y mejorar la experiencia de espera en diversas situaciones. Estas aplicaciones, diseñadas con el usuario y el proveedor de servicios en mente, ofrecen un conjunto integral de funciones destinadas a optimizar la organización, reducir los tiempos de espera y elevar la eficiencia en la atención al cliente.',
+				},
+				{
+					id: 2,
+					details: 'La aplicación se distingue por su capacidad para organizar de manera inteligente a las personas en colas virtuales. Utilizando algoritmos avanzados, asigna turnos de manera equitativa, asegurando una distribución justa y eficiente de los recursos disponibles. Esto elimina la necesidad de esperas prolongadas y confusas, proporcionando un sistema ordenado y estructurado.',
+				},
+				{
+					id: 3,
+					details: 'Una de las características destacadas es la capacidad de proporcionar información en tiempo real a los usuarios. Los clientes pueden consultar la aplicación para conocer su posición en la cola, recibir estimaciones de tiempo de espera actualizadas y acceder a detalles relevantes sobre el servicio que están esperando. Esta transparencia promueve una experiencia más informada y menos estresante.',
+				},
+				{
+					id: 4,
+					details: 'La aplicación de colas/tickets se presenta como una solución completa para transformar la experiencia de espera, beneficiando tanto a los usuarios como a los proveedores de servicios. Su enfoque en la eficiencia, la transparencia y la comodidad redefine la forma en que las personas interactúan en entornos donde la espera es inevitable.',
+				},
+			],
+			socialSharingsHeading: 'LinkedIn y Codigo Fuente',
+			socialSharings: [
+				{
+					id: 1,
+					name: 'randymxd06',
+					icon: 'linkedin',
+					url: 'https://www.linkedin.com/in/randymxd06/',
+				},
+				{
+					id: 2,
+					name: 'Websocket_Colas_App_NodeJS',
+					icon: 'github',
+					url: 'https://github.com/randymxd06/Websocket_Colas_App_NodeJS',
+				},
+			],
+		},
+		relatedProject: {
+			relatedProjectsHeading: 'Otros Proyectos',
+			relatedProjects: [
+				{
+					id: 1,
+					title: 'Mobile UI',
+					img: require('@/assets/images/mobile-project-1.jpg'),
+				},
+				{
+					id: 2,
+					title: 'Web Application',
+					img: require('@/assets/images/web-project-1.jpg'),
+				},
+				{
+					id: 3,
+					title: 'UI Design',
+					img: require('@/assets/images/ui-project-2.jpg'),
+				},
+				{
+					id: 4,
+					title: 'Kabul Mobile App UI',
+					img: require('@/assets/images/mobile-project-2.jpg'),
+				},
+			],
+		},
+	},
 ];
 
 export default projects;
